@@ -1,8 +1,8 @@
 # Instagram-Bot-with-GUI
 The Project uses Selenium and Chrome WebDriver to login to Instagram and do the following : 
-  (1) Like and Comment on Target Account 
-  (2) Follow Target Account
-  (3) Unfollow Target Account
+  (1) Like and Comment on Target Account <br />
+  (2) Follow Target Account <br />
+  (3) Unfollow Target Account <br />
 The Project uses tkinter for GUI
 # USER INPUTS:
 
@@ -15,3 +15,11 @@ The Project uses tkinter for GUI
 ![comment](https://user-images.githubusercontent.com/109027110/182223329-fde63a6d-3371-4b9e-ae05-1c0981ed4b95.png)
 
 (3) For Follow and Unfollow Buttons, The Bot automatically Follows and Unfollows The Target Account
+# Bot CLASS
+##SELENIUM AND CHROME DRIVER
+Bot Class Members : <br />
+Using Selenium and Chrome Driver, a webdriver.Chrome Object is created. Using it I have made the driver to open to https://www.instagram.com/accounts/login/ <br />
+target : String to store User ID of Target Account <br />
+comment : To Store User Comment <br />
+number : To Store the number of new posts from latest post to like and comment <br />
+
