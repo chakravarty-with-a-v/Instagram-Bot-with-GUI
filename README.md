@@ -1,9 +1,16 @@
 # Instagram-Bot-with-GUI
-The Project uses Selenium and Chrome WebDriver to login to Instagram and do the following : 
+The Project uses Selenium and Chrome WebDriver to login to Instagram and do the following : <br />
   (1) Like and Comment on Target Account <br />
   (2) Follow Target Account <br />
   (3) Unfollow Target Account <br />
 The Project uses tkinter for GUI
+# TO RUN THIS PROJECT :
+
+Download the files and store them in the same folder. <br />
+Make sure to have Chrome Driver installed as per your Chrome VERSION :  link-> https://chromedriver.chromium.org/downloads <br />
+chrome_driver_path should be : file path where you installed chromedriver + "\chromedriver.exe" for **WINDOWS** and simply "\chromedriver" for **Mac** <br />
+EXAMPLE : In My case , Chrome Driver was installed in "C:\Users\hp\Desktop\PROGRAMS\Chrome Driver" <br />so I appended "\chromedriver" as I am Using **WINDOWS** to get "C:\Users\hp\Desktop\PROGRAMS\Chrome Driver\chromedriver.exe"
+
 # USER INPUTS:
 
 (1) In **FIRST WINDOW** User needs to provide **Target USER ID**
@@ -28,7 +35,7 @@ Bot Class Members : <br />
 (2) search() -> Finds ID based on target ID input from USER. If ID is invalid , it generates an error message and returns to Home Page <br />
 (3) follow() -> Employs Search method and then follows user. If User is already followed , generates an error message. Finally returns to Home Page <br />
 (4) unfollow()-> Same as follow() method except that it unfollows target account <br />
-(5) private()-> Checks if ** target account ** is ** private with respect to the Bot account.** <br />
+(5) private()-> Checks if **target account** is **private with respect to the Bot account.** <br />
 (6) like_comment() -> Searches Target Account , checks if it is Not Private with respect to Bot Account and then likes and comments Target Account Posts based on User Input <br />
 (7) home() -> Returns to Home Page
 
@@ -44,7 +51,7 @@ Bot Class Members : <br />
   likecomment class objects take a Tk type object and a Bot type Object as parameters and the Window is Created using tkinter <br />
   ### likecomment members
   (1) Window Entries are class members  namely **comment entry** and **number entry** <br />
-  (2) An Object of TK class
+  (2) An Object of TK class <br />
   (3) An Object of Bot class
   
  ### likecomment methods
