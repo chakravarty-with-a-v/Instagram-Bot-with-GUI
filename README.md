@@ -9,7 +9,7 @@ The Project uses tkinter for GUI
 Download the files and store them in the same folder. <br />
 Make sure to have Chrome Driver installed as per your Chrome VERSION :  link-> https://chromedriver.chromium.org/downloads <br />
 chrome_driver_path should be : file path where you installed chromedriver + "\chromedriver.exe" for **WINDOWS** and simply "\chromedriver" for **Mac** <br />
-EXAMPLE : In My case , Chrome Driver was installed in "C:\Users\hp\Desktop\PROGRAMS\Chrome Driver" <br />so I appended "\chromedriver" as I am Using **WINDOWS** to get "C:\Users\hp\Desktop\PROGRAMS\Chrome Driver\chromedriver.exe"
+EXAMPLE : In My case , Chrome Driver was installed in "C:\Users\hp\Desktop\PROGRAMS\Chrome Driver" <br />so I appended "\chromedriver.exe" as I am Using **WINDOWS** to get "C:\Users\hp\Desktop\PROGRAMS\Chrome Driver\chromedriver.exe"
 
 # USER INPUTS:
 
